@@ -4,7 +4,7 @@
 
 *{
     margin: 0;
-    padding:7px;
+    padding:0;
     box-sizing: border-box;
 }
 
@@ -22,6 +22,7 @@ nav a {
 
 h1{
     color: darkblue;
+    padding: 5px;
 }
 
 main img{
@@ -34,7 +35,7 @@ main img{
 }
 
 p{
-    padding: 0;
+    padding: 8px;
 }
 
 main{
