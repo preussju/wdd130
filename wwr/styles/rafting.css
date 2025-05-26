@@ -78,7 +78,7 @@ h1{
     padding:16px;
     opacity: 90%;
     text-align: center;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: #fff;
 }
 
@@ -90,15 +90,15 @@ h1{
     font-weight: 700;
     padding: 2%;
     opacity: 90%;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     width:95%;
 }
 
 .hero article img{
     float: right;
     width: 125px;
-    box-shadow: 0 0 30px rgb(0, 92, 128);
-    border: 1px solid var(--secondary-color);
+    box-shadow: 0 0 30px rgb(53, 25, 2);
+    border: 1px solid var(--primary-color);
 }
 
 .history{
@@ -107,9 +107,13 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #7e6e57;
-    color:#fff;
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
     font-weight: 700;
+}
+
+.history h2{
+    color:var(--primary-color);
 }
 
 figure img{
@@ -125,7 +129,7 @@ figure img{
 }
 
 .adventure{
-    background-color: #7e6e57;
+    background-color: rgb(65, 122, 68);
     color: #fff;
     font-weight: 550;
     margin: 1rem auto;  
