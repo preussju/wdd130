@@ -388,3 +388,10 @@ button:hover {
 
 .back{background-color:#7bccc354;
 }
+
+.lorem{
+    color:var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+}
