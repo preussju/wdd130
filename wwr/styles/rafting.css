@@ -317,7 +317,6 @@ button:hover {
 
 .home_form{
     padding-top:10px;
-    border-top: 1px solid var(--primary-color);
     background-color: rgb(177, 223, 187);    
 }
 
@@ -354,17 +353,21 @@ button:hover {
     border: 3px solid var(--primary-color)
 }
 
+
 .link_trips a{
     margin-left: 44%;
     color: var(--primary-color);
     font-family: var(--heading-font);
     font-size: 1.8rem;
     font-weight: 800;
+    text-decoration: none;
+    background-color: var(--accent2-color);
+    padding: 8px;
+    border-radius: 1rem;
 }
 
 .link_trips p{
     text-align: center;
-    margin-bottom: 0%;
     color: var(--primary-color);
     font-family: var(--heading-font);
     font-size: 1.8rem;
@@ -409,4 +412,6 @@ button:hover {
     font-size: 1.3rem;
     font-weight: 600;
     text-align: center;
+    padding:1rem;
+    margin-bottom: 20px;
 }
