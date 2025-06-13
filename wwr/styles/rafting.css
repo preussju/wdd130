@@ -288,7 +288,7 @@ fieldset{
     display: grid;
 }
 
-button {
+.contact_button {
     background-color: rgb(75, 54, 15);
     color: #fff;
     border: none;
@@ -302,26 +302,32 @@ button:hover {
     background-color: rgb(75, 136, 75);
 }
 
-.home_button{
-    font-size: smaller;
-}
 
 .home_form{
+    padding-top:10px;
+    border-top: 1px solid var(--primary-color);
+    background-color: rgb(177, 223, 187);    
+}
+
+.home_form fieldset, legend{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color:var(--primary-color);  
-    background-color: rgb(177, 223, 187);
-    margin-bottom: 1rem;
-
 }
 
-.home_legend{
-    border-top: 1px solid var(--primary-color);
-    color:var(--primary-color);
-    padding: .4rem;
-    background-color: #fff;
+.home_button{
+    background-color: rgb(75, 54, 15);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 7px;
+    font-size: 1rem;
+    margin: 5px;   
+    margin-left: 413px;
 }
+
 
 .home_figure{
     display: grid;
