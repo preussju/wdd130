@@ -416,3 +416,72 @@ button:hover {
     padding:1rem;
     margin-bottom: 20px;
 }
+
+.trip_h1{
+    color:var(--primary-color);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.trip1 img, .trip2 img, .trip3 img, .trip4 img{
+    width: 250px;
+}
+
+.trip1, .trip2, .trip3, .trip4{
+    color:var(--primary-color);
+    display: block;
+    position: relative;
+    padding: 20px 40px 150px 40px;
+    border-radius: 0.5rem;
+    font-size: smaller;
+    border: 1px solid var(--primary-color);
+    background-color: #fff;
+    font-weight: 600;
+    margin-top: 30px;
+
+}
+
+.trip_first, .trip_second{
+    display: flex;
+    text-align: center;
+    color: var(--primary-color);
+    justify-content: space-evenly;
+    font-style: italic;
+    margin: 0 auto; 
+}
+
+
+.trip_first h2, .trip_second h2{
+    color:var(--primary-color);
+}
+
+.trip_first h3, .trip_second h3{
+    color:var(--primary-color);
+    padding-top: 5px;
+}
+
+.trip_first p, .trip_second p{
+    position: absolute;
+}
+
+.trip_second{
+    padding-bottom: 50px;
+}
+
+.trip_first nav, .trip_second nav{
+    position:absolute;
+    margin-top: 90px;
+    margin-left:80px;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: var(--accent2-color);
+    padding: 8px;
+    border-radius: 1rem;
+}
+
+.trip_first a, .trip_second a{
+    text-decoration: none;
+    color:#573403;
+}
