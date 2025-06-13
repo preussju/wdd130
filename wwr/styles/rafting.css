@@ -316,6 +316,7 @@ button:hover {
 
 
 .home_form{
+    margin-top: 60px;
     padding-top:10px;
     background-color: rgb(177, 223, 187);    
 }
